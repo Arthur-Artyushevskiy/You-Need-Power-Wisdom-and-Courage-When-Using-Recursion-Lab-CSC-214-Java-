@@ -11,6 +11,7 @@ public class App {
     public static void main(String[] args) {
         TriangleNumberCalculator calculator = new TriangleNumberCalculator();
 
+        /*
         System.out.println(calculator.value(1)); // This should print out 1
         System.out.println(calculator.value(2)); // This should print out 3
         System.out.println(calculator.value(4)); // This should print out 10
@@ -22,7 +23,11 @@ public class App {
         System.out.println(calculator.subtract(1, 1)); // This should print out 0
         System.out.println(calculator.subtract(2, 3)); // This should print out -3
         System.out.println(calculator.subtract(4, 2)); // This should print out 7
-        
+        */
 
+        // the approximate max size of n is 31474
+        //System.out.println(calculator.value(31474)); // This should print out 10
+        System.out.println(calculator.add(31474, 31474)); // This should print out 10
+        //System.out.println(calculator.subtract(31474, 31474));
     }
 }
